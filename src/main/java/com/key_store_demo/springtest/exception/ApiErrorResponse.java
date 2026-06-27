@@ -6,6 +6,7 @@ import java.time.ZonedDateTime;
 
 public class ApiErrorResponse {
 
+    //Response body
     private HttpStatus httpStatus;
     private String message;
     private String path;
