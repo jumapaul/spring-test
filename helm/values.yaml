@@ -43,8 +43,6 @@ database:
     name: "concept-db-config"
   secret:
     name: "concept-db-secret"
-    usernameKey: username
-    passwordKey: password
 
 probes:
   liveness:
