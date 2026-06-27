@@ -3,7 +3,7 @@ replicaCount: 2
 image:
   repository: ghcr.io/jumapaul/spring-test
   pullPolicy: IfNotPresent
-  tag: d099cd3
+  tag: b8a65ee
 
 service:
   type: ClusterIP
@@ -38,6 +38,14 @@ ingress:
   baseDomain: cluster.lakesideinn.space
   auth:
     enabled: true
+
+database:
+  configMap:
+    name: "concept-db-config"
+  secret:
+    name: "concept-db-secret"
+    usernameKey: username
+    passwordKey: password
 
 probes:
   liveness:

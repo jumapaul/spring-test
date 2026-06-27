@@ -2,10 +2,9 @@ spring:
   application:
     name: test
   datasource:
-    password: ${PASSWORD}
-    username: ${USERNAME}
-    url: ${JDBC_URL}
-    name: rewards
+    password: ${DB_PASSWORD}
+    username: ${DB_USERNAME}
+    url: jdbc:postgresql://${DB_HOST}:${DB_PORT}/${DB_NAME}
 
   jpa:
     hibernate:

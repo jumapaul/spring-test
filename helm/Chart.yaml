@@ -1,6 +1,6 @@
 apiVersion: v2
 name: spring-test
-description: Spring Boot application to write test case using mocks
+description: Spring Boot application for test using mocks
 type: application
 version: 0.1.0
 appVersion: "latest"
