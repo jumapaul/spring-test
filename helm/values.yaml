@@ -4,9 +4,9 @@ image:
   repository: ghcr.io/jumapaul/spring-test
   pullPolicy: IfNotPresent
 <<<<<<< HEAD
-  tag: b8a65ee
+  tag: d46a57c
 =======
-  tag: 163d2f9
+  tag: d46a57c
 >>>>>>> 1871ca20405922b60db9ab7ad7cf935aa6032cc2
 
 service:
