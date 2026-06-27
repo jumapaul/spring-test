@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: test
+  datasource:
+    password: paulodhiambo962
+    username: I1USkngNV9PX
+    url: jdbc:postgresql://ep-super-fire-39148711-pooler.us-east-2.aws.neon.tech/rasterdb?sslmode=require&channel_binding=require
+    name: rewards
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+server:
+  port: 8000
