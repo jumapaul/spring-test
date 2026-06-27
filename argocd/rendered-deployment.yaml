@@ -7,14 +7,14 @@ spec:
   project: default
   source:
     repoURL: https://github.com/jumapaul/spring-test.git
-    targetRevision: main
+    targetRevision: master
     path: helm
     helm:
       valueFiles:
         - values.yaml
   destination:
     server: https://kubernetes.default.svc
-    namespace: concept
+    namespace: spring-test
   syncPolicy:
     automated:
       prune: true
