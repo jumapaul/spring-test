@@ -1,6 +1,6 @@
 spring:
   application:
-    name: test
+    name: springtest
   datasource:
     password: ${DB_PASSWORD}
     username: ${DB_USERNAME}

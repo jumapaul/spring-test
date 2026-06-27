@@ -1,12 +1,12 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: spring-test
+  name: springtest
   namespace: argocd
 spec:
   project: default
   source:
-    repoURL: https://github.com/jumapaul/spring-test.git
+    repoURL: https://github.com/jumapaul/springtest.git
     targetRevision: master
     path: helm
     helm:
