@@ -14,7 +14,7 @@ spec:
         - values.yaml
   destination:
     server: https://kubernetes.default.svc
-    namespace: spring-test
+    namespace: concept
   syncPolicy:
     automated:
       prune: true
